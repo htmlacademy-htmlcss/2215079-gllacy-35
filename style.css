@@ -1,0 +1,39 @@
+.sorting-blog {
+  width: 570px;
+  height: 224px;
+  background-image: url(/images/sorting.png);
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.wafer {
+  width: 1170px;
+  height: 480px;
+  background-image: url(/images/wafer.png);
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.mail-substrate {
+  width: 570px;
+  height: 224px;
+  background-image: url(/images/Substrate-mail.png);
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.delivery-section {
+  width: 1170px;
+  height: 534px;
+  background-image: url(/images/delivery.png);
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.main-feedback {
+  width: 1170px;
+  height: 492px;
+  background-image: url(/images/Feedback.jpg);
+  background-size: cover;
+  border-radius: 16px;
+}
