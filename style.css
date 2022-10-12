@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/fonts/inter-400.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/fonts/inter-700.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 900;
+  font-style: normal;
+  src: url(/fonts/inter-900.woff2) format("woff2");
+}
+
 .sorting-blog {
   width: 570px;
   height: 224px;
@@ -36,4 +57,372 @@
   background-image: url(/images/Feedback.jpg);
   background-size: cover;
   border-radius: 16px;
+}
+
+.raspberry-gift {
+  width: 219px;
+  height: 268px;
+  background: url(/images/raspberry-gift.png);
+  background-color: none;
+  background-size: cover;
+}
+
+.marshmallow {
+  width: 219px;
+  height: 268px;
+  background: url(/images/marshmallow.png);
+  background-color: none;
+  background-size: cover;
+}
+
+body {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #FEAFC3;
+  color: #2D3440;
+}
+
+.content {
+  width: 1359px;
+}
+
+.content-inner {
+  width: 1366px;
+}
+
+.ice-cream .button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #2D3440;
+  text-decoration: none;
+  background: #FCFCFC;
+  width: 139px;
+  height: 44px;
+  border: 4px solid rgba(252, 252, 252, 0.4);
+  border-radius: 26px;
+  padding: 12px 32px;
+}
+
+.free-gifts .button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #2D3440;
+  text-decoration: none;
+  background: #FCFCFC;
+  width: 176px;
+  height: 44px;
+  border: 4px solid rgba(252, 252, 252, 0.4);
+  border-radius: 26px;
+  padding: 12px 32px;
+}
+
+.newsletter-form .button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #FCFCFC;
+  text-decoration: none;
+  background: #FF2F64;
+  width: 152px;
+  height: 44px;
+  border: 4px solid rgba(255, 47, 100, 0.3);
+  border-radius: 26px;
+  padding: 12px 32px;
+}
+
+.appointment-form .button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #FCFCFC;
+  text-decoration: none;
+  background: #FF2F64;
+  width: 152px;
+  height: 44px;
+  border: 4px solid rgba(255, 47, 100, 0.3);
+  border-radius: 26px;
+  padding: 12px 32px;
+}
+
+.contacts .button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #FCFCFC;
+  text-decoration: none;
+  background: #FF2F64;
+  border-width: 250px;
+  height: 44px;
+  border: 4px solid rgba(255, 47, 100, 0.3);
+  border-radius: 26px;
+  padding: 12px 32px;
+}
+
+.page-header {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+}
+
+.ice-cream {
+  color: #2D3440;
+  background-color: #FEAFC3;
+}
+
+.ice-cream h2 {
+  color: #2D3440;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 900;
+}
+
+.ice-cream p {
+  color: #2D3440;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.free-gifts h2 {
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.free-gifts h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.free-gifts p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.popular-product h2 {
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.popular-product h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.popular-product p {
+  color: #565C66;
+
+}
+
+.product-card-price {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.advantages h2 {
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.advantages p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.blog-submit h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #2D3440;
+}
+
+.blog p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #565C66;
+}
+
+.submit-item p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #565C66;
+}
+
+.delivery-title {
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 900;
+}
+
+.delivery-description-item p {
+  color: #565C66;
+}
+
+.appointment-title {
+  color: #565C66;
+}
+
+.delivery-list label {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #2D3440;
+}
+
+.contacts h2 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #565C66;
+}
+
+.contacts-address-text {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #2D3440;
+  text-decoration: none
+}
+
+.for-contacts-phone {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  font-style: normal;
+  color: #565C66;
+}
+
+.contacts-phone {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.contact-phone {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  font-style: normal;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.contacts-time {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #565C66;
+}
+
+.navigation-footer {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #2D3440;
+}
+
+.copyright-text p {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #2D3440;
+}
+
+.product-list h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.product-list p {
+  color: #565C66;
+}
+
+.inner-header {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #2D3440;
+}
+
+.main-inner h2 {
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 900;
+  color: #2D3440;
+}
+
+.product-card-title h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.product-card-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #565C66;
+}
+
+form .button {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  width: 185px;
+  height: 36px;
+  background: rgba(252, 252, 252, 0.3);
+  border: 2px solid #FCFCFC;
+  border-radius: 20px;
+  padding: 28px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pagination-show-more {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  background: #FCFCFC 179px 44px;
+  border: 4px solid rgba(252, 252, 252, 0.4);
+  border-radius: 26px;
+  padding: 12px 32px;
 }
