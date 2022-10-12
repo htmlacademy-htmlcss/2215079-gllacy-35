@@ -19,7 +19,6 @@
   src: url(/fonts/inter-900.woff2) format("woff2");
 }
 
-
 .sorting-blog {
   width: 570px;
   height: 224px;
@@ -60,15 +59,36 @@
   border-radius: 16px;
 }
 
+.raspberry-gift {
+  width: 219px;
+  height: 268px;
+  background: url(/images/raspberry-gift.png);
+  background-color: none;
+  background-size: cover;
+}
+
+.marshmallow {
+  width: 219px;
+  height: 268px;
+  background: url(/images/marshmallow.png);
+  background-color: none;
+  background-size: cover;
+}
+
 body {
-  list-style-type: none;
   font-family: "Inter", "Arial", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   line-height: 22px;
-  color: #2D3440;
   background-color: #FEAFC3;
+  color: #2D3440;
+}
+
+.content {
+  width: 1359px;
+}
+
+.content-inner {
+  width: 1366px;
 }
 
 .ice-cream .button {
@@ -217,7 +237,6 @@ body {
 
 }
 
-
 .product-card-price {
   font-size: 20px;
   line-height: 24px;
@@ -329,7 +348,6 @@ body {
   color: #565C66;
 }
 
-
 .navigation-footer {
   font-size: 14px;
   line-height: 20px;
@@ -355,7 +373,6 @@ body {
 .product-list p {
   color: #565C66;
 }
-
 
 .inner-header {
   font-size: 14px;
