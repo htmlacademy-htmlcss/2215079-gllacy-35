@@ -60,19 +60,22 @@
 }
 
 .raspberry-gift {
-  width: 219px;
+  width: 570px;
   height: 268px;
-  background: url(/images/raspberry-gift.png);
-  background-color: none;
-  background-size: cover;
+  background: url(/images/raspberry-gift.png) right no-repeat;
+  background-color: #FF7799;
+  background-size: auto;
+  border-radius: 16px;
+
 }
 
 .marshmallow {
-  width: 219px;
+  width: 570px;
   height: 268px;
-  background: url(/images/marshmallow.png);
-  background-color: none;
-  background-size: cover;
+  background: url(/images/marshmallow.png) right no-repeat;
+  background-color: #FF7799;
+  background-size: auto;
+  border-radius: 16px;
 }
 
 html {
@@ -88,14 +91,7 @@ body {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  display: none
 }
 
 .content {
@@ -449,6 +445,12 @@ body {
   text-align: center;
 }
 
+.adavanteges-conteiner {
+  border-radius: 16px;
+  background-color: #FCFCFC;
+  padding: 56px 40px;
+}
+
 .advantages p {
   font-size: 16px;
   line-height: 22px;
@@ -492,6 +494,13 @@ body {
   font-weight: 400;
   color: #565C66;
 }
+
+.submit-item {
+  border-radius: 16px;
+  background-color: #FCFCFC;
+  padding: 26px;
+}
+
 
 .submit-item p {
   width: 506px;
