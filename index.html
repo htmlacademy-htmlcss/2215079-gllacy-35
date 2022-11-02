@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
 
   <body>
@@ -309,20 +309,26 @@
                     подтвердить
                     заказ.</p>
                   <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <p class="appointment-form-date">
-                      <label class="form-label" for="appointment-date">Дата</label>
+                    <p class="field-group appointment-form-date">
+                      <label class="form-label" for="appointment-date">Дата
+                        <button class="info">
+                          <span class="visually-hidden">Посмотреть дополнительную информацию</span></button>
+                      </label>
                       <input type="text" id="appointment-date" name="appointment-date" placeholder="01.04.2020">
                     </p>
-                    <p class="appointment-form-phone">
+                    <p class="field-group appointment-form-phone">
                       <label class="form-label" for="appointment-phone">Телефон</label>
                       <input type="text" id="appointment-phone" name="appointment-phone" placeholder="+7 800 999-00-00">
                     </p>
-                    <p class="appointment-form-address">
-                      <label class="form-label" for="appointment-address">Адрес</label>
+                    <p class="field-group appointment-form-address">
+                      <label class="form-label" for="appointment-address">Адрес
+                        <button class="info">
+                          <span class="visually-hidden">Посмотреть дополнительную информацию</span></button>
+                      </label>
                       <input type="text" id="appointment-address" name="appointment-address"
                         placeholder="ул. Большая Конюшенная, 19/8">
                     </p>
-                    <button class="button" type="submit">Отправить</button>
+                    <button class="button appointment-submit" type="submit">Отправить</button>
                   </form>
                 </li>
               </ul>
